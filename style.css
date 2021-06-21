@@ -1,0 +1,24 @@
+/* RESET */
+* {
+    margin: O;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+main section {
+    background-color: pink;
+}
+
+main section:first-of-type {
+    background-color: rgb(216, 102, 169);
+}
+
+main section:last-of-type {
+    background-color: burlywood;
+}
